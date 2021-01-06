@@ -74,14 +74,14 @@ const suppFuncs = {
 }
 
 
-const { main } = require('./singly-linked-list');
+const { main } = require('./singly-linked-list')
 let SSL = main()
-
+/*
 console.log(suppFuncs.display(SSL))
 console.log(suppFuncs.size(SSL))
 console.log(suppFuncs.isEmpty(SSL))
 console.log(suppFuncs.findPrevious(SSL, 'Helo'))
-console.log(suppFuncs.findLast(SSL))
+console.log(suppFuncs.findLast(SSL))*/
 
 module.exports = suppFuncs
 
